@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
-# python3 -m pytest -v --driver-path Driver/chromedriver  test_selenium_login_my_profile_pets.py
 driver = webdriver.Chrome('Driver/chromedriver')
 
 def test_petfriends_login():
